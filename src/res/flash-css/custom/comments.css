@@ -1,0 +1,114 @@
+
+
+.comments-wrap {
+    width: 30%;
+    text-align: left;
+}
+
+.comment-head-one {
+    font-size: 90%;
+}
+
+.comment-head-two {
+    font-size: 85%;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.comment-label {
+    width: 90%;
+    padding-top: 5px;
+    color: #888888;
+}
+
+.comment-input {
+    width: 400px;
+    height: 120px;
+    color: #888888;
+    padding: 5px;
+}
+
+.comments-wrap .group .comment-label,
+.comments-wrap .group .comment,
+.comments-wrap .group .comment-btn {
+    display: block;
+}
+
+
+.comments-link {
+    padding-top: 15px;
+}
+
+.comment {
+    padding-top:  10px;
+    padding-bottom: 10px;
+}
+
+.comment .title {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 90%;
+    padding: 10px;
+}
+
+.comment .body {
+    font-size: 90%;
+    color: #333333;
+    margin-left: 35px;
+}
+
+.comment .timestamp {
+    font-size: 75%;
+    color: #888888;
+    font-weight: bold;
+    padding-top: 7px;
+    margin-left: 35px;
+}
+
+.comments-wrap .button {
+    text-decoration: none;
+    background-color: rgb(75, 86, 233);
+    color: #eeeeee;
+    padding: 5px;
+    font-size: 90%;
+}
+
+.comment-separator {
+    width: 500px;
+}
+
+.column30 {
+    width: 30px;
+    float: left;
+}
+
+.column400 {
+    width: 400px;
+    float: left;
+}
+
+.column70 {
+    width: 70px;
+    float: left;
+}
+
+.delete-button {
+    margin: auto;
+    margin-top: 10px;
+    padding: 2px;
+    background-color: white;
+    color: #888888;
+    width: 60px;
+    height: 30px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.lyrics-edit-container {
+    /* border: 1px solid #24106d; */
+    width: 500px;
+    margin: auto;
+    padding: 5px;
+}

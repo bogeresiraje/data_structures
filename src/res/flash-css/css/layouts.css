@@ -1,0 +1,161 @@
+
+* {
+	margin: 0;
+	font-size: 99%;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+	  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+	  monospace;
+  }
+
+
+
+/* HTML page container */
+.container {
+	margin-top: 55px;
+}
+
+.column-separator {
+	width: 100%;
+}
+
+.flex-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+
+.column80 {
+	width: 80%;
+	float: left;
+}
+
+
+.column50 {
+	width: 50%;
+	float: left;
+}
+
+
+.column60 {
+	width: 60%;
+	float: left;
+}
+
+
+
+.column20 {
+	width: 20%;
+	float: left;
+}
+
+.fifty {
+	width: 80px;
+}
+
+
+/*
+		For padding purposes
+*/
+.pad {
+	margin-top: 1px;
+	padding: 10px;
+}
+
+.pad100 {
+	height: 100px;
+	width: 100%;
+}
+
+
+.pad-bottom {
+	height: 200px;
+	width: 100%;
+	display: table;
+}
+
+
+/*
+		column that enables in div scrolling
+*/
+.column20-scroll {
+	width: 20%;
+	height: 100vh;
+	float: left;
+	display: block;
+	margin: 0px auto;
+	overflow: auto;
+}
+
+
+.alert-container {
+	width: 100%;
+	max-height: 100vh;
+	padding: 200px 0;
+	justify-content: center;
+	opacity: 0.3;
+	overflow-y: unset;
+}
+
+
+.form-alert {
+	width: 50%;
+	height: 200px;
+	justify-self: center;
+	margin: auto;
+	background-color: white;
+}
+
+
+/* The Modal (background) */
+.modal {
+	position: fixed;
+    z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+    width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	padding-bottom: 40px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 50px auto; /* 15% from the top and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: auto;
+  display: table;
+}
+
+.center-div {
+	width: 50%;
+	margin: auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.center-div {
+		width: 100%;
+		margin: auto;
+	}
+	
+  }

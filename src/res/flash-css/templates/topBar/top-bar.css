@@ -1,0 +1,99 @@
+
+.top-bar {
+    top: 0;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 10px;
+    position: fixed;
+    background-color: #170d6e;
+}
+
+.top-bar .title {
+    display: inline-block;
+    width: 13%;
+}
+
+
+.top-bar .title {
+    color: #eeeeee;
+    font-size: 1.5em;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+
+.top-bar .title .link {
+    text-decoration: none;
+    color: #eeeeee;
+
+}
+
+.top-bar .menu {
+    display: inline-block;
+    width: 85%;
+}
+
+
+.search-form .search {
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    color: rgba(25, 8, 175, 0.658);
+    border: none;
+    padding: 8px;
+    color: #eeeeee;
+    background-color: #ffffff1a
+}
+
+::placeholder {
+    color: #aaaaaa;
+    opacity: 1;
+}
+
+.top-bar .logout {
+    text-align: center;
+}
+
+.top-bar .logout .button {
+    background: none;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+.nav-link {
+    color: #eeeeee;
+}
+
+.active-link {
+    color: #ccd828;
+}
+
+
+.nav-link .top50, .nav-link .songs, .nav-link .last-week, .nav-link .curr {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    color: #eeeeee;
+}
+
+.nav-link .num-pending {
+    color: #86d4f3;
+    font-size: 85%;
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .top-bar .title {
+        font-size: 90%;
+    }
+    
+    .nav-link .top50, .nav-link .songs, .nav-link .last-week, .nav-link .curr {
+        display: inline-block;
+        padding: 5px;
+        margin: 10px;
+        color: #eeeeee;
+    }
+}

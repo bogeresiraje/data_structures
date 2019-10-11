@@ -1,0 +1,19 @@
+
+.network-error-container {
+    margin-top: 55px;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.network-error-container .title {
+    font-weight: bold;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.network-error-container .dom {
+    font-size: 90%;
+    color: #aaaaaa;
+}

@@ -1,0 +1,74 @@
+
+/* Outer centered div */
+.login-wrap{
+	width: 40%;
+	height: 100vh;
+	margin: auto;
+	font: 600 16px/18px 'Open Sans',sans-serif;
+	position: relative;
+	/* background: url(http://127.0.0.1:5000/public/images/music.jpg); */
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+/* Div that will house our main html elements */
+.login-html{
+	width: 90%;
+	height: 80vh;
+	padding: 5%;
+	padding-top: 20vh;
+	padding-bottom: 0;
+	position: absolute;
+	background:rgba(40,57,101,.9);
+}
+
+.login-form .group {
+	height: 100px;
+	width: 90%;
+	margin-bottom: 15px;
+}
+
+.login-form .group:nth-child(3) {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.login-form .group .label {
+	color: #aaa;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+}
+
+
+.login-form .group .input,
+.login-form .group .button {
+	width:100%;
+	color:#fff;
+	border:none;
+	text-align: center;
+	padding:15px 20px;
+	border-radius:25px;
+	height: 20px;
+	background:rgba(255,255,255,.1);
+}
+
+
+.login-form .group .input:focus, .login-form .group .button:focus {
+	outline: none;
+}
+
+.login-form .group .button {
+	height: 50px;
+	width: 50%;
+	cursor: pointer;
+	background:#1161ee;
+}
+
+.error {
+	color: rgb(231, 71, 170);
+	font-weight: normal;
+	text-align: center;
+	font-size: 85%;
+}

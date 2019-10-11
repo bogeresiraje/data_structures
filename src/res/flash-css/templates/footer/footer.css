@@ -1,0 +1,17 @@
+
+footer {
+    background-color: #282896;
+    color: aliceblue;
+    font-size: 85%;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+footer .contact-us {
+    margin-top: 10px;
+    color: #ccd828;
+}
+
+footer .facebook {
+    margin-top: 5px;
+}

@@ -1,0 +1,90 @@
+
+
+.center-btn-outline {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: white;
+    color: #888888;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-btn-outline-mini {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: white;
+    color: #888888;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-btn-small {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 3px;
+    background-color: white;
+    color: #888888;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #888888;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.center-btn-small-red {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 85%;
+    padding: 3px;
+    background-color: #d12828;
+    color: white;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #d12828;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blue-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+    background-color: rgb(15, 28, 209);
+    color: #eeeeee;
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(15, 28, 209);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.image-clickable {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.image-clickable img {
+    margin-bottom: -5px;
+    padding-right: 10px;
+}

@@ -1,0 +1,60 @@
+
+.input-div {
+    padding: 10px 0;
+}
+
+.input-text-black {
+    width: 89%;
+	padding: 2px;
+	height: 30px;
+	margin: auto;
+	color: #555555;
+    border: 1.2px solid #bbb;
+    align-self: center;
+    text-align: center;
+}
+
+
+.input-textarea-black {
+    width: 89%;
+	padding: 2px;
+	height: 250px;
+	margin: auto;
+	color: #555555;
+    border: 1.2px solid #bbb;
+    align-self: center;
+    text-align: center;
+}
+
+.input-text-green {
+    width: 89%;
+	padding: 2px;
+	height: 30px;
+	margin: auto;
+	color: #555555;
+    border: 1px solid green;
+    align-self: center;
+    text-align: center;
+}
+
+.input-text-blue {
+    width: 89%;
+	padding: 2px;
+	height: 30px;
+	margin: auto;
+	color: #555555;
+    border: 1px solid blue;
+    align-self: center;
+    text-align: center;
+}
+
+.input-picker-black {
+    width: 89%;
+	padding: 2px;
+	height: 30px;
+	margin: auto;
+	color: #555555;
+    border: 1.2px solid #bbb;
+    align-self: center;
+    text-align: center;
+}

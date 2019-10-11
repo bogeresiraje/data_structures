@@ -1,0 +1,32 @@
+.top-error {
+    color: antiquewhite;
+    position: absolute;
+    height: 25px;
+    background-color: rgb(196, 57, 57);
+    width: 100%;
+    cursor: pointer;
+    font-size: 85%;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0;
+    top: 0;
+}
+
+.top-success {
+    top: 0;
+    color: rgb(100, 100, 100);
+    position: fixed;
+    height: 25px;
+    background-color: rgb(226, 236, 198);
+    width: 100%;
+    cursor: pointer;
+    font-size: 85%;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+.element {
+    border: 1px solid #333333;
+    padding: 5px;
+}

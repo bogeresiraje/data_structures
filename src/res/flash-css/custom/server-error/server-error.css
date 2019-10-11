@@ -1,0 +1,19 @@
+
+.server-error-container {
+    margin-top: 55px;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.server-error-container .title {
+    font-weight: bold;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.server-error-container .dom {
+    font-size: 90%;
+    color: #aaaaaa;
+}

@@ -1,0 +1,50 @@
+
+.image {
+    width: 24px;
+    height: 24px;
+}
+
+.round-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+}
+
+.round-image-smaller {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.round-image-x {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+
+.round-image-clickable {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.image-clickable {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+
+.image-button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #888888;
+    cursor: pointer;
+}

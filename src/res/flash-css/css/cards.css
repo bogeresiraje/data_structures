@@ -1,0 +1,132 @@
+
+
+/*  styling the card
+	the card has an image on its left,
+	a title of the content
+	and lastly the description of the content
+ */
+.fl-card {
+	width: 90%;
+	margin: 2% auto;
+	border: 1px solid #ddd;
+	box-shadow: 0 3px 3px #ddd;
+	display: table;
+}
+
+.card {
+	width: 90%;
+	margin: 2% auto;
+	border: 1px solid #aaa;
+	padding: 7px;
+	box-shadow: 0px 0px 3px 0px #aaa;
+	display: table;
+}
+.fl-card50 {
+	width: 50%;
+	margin: 2% auto;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px #888;
+	display: table;
+}
+.fl-card .fl-card-left-image {
+	width: 30%;
+	float: left;
+}
+.fl-card .fl-card-right-content {
+	width: 66%;
+	height: 145px;
+	float: left;
+	padding: 0 2%;
+}
+.fl-card .fl-card-right-content h1 {
+	padding: 1% 0;
+	font-weight: normal;
+	font-size: 100%;
+	border-bottom: 1px solid #DDDDDD;
+	color: #6473D1;
+}
+.fl-card .fl-card-right-content p {
+	padding: 3px 0;
+	color: #555555;
+	font-size: 80%;
+}
+.fl-card .fl-card-right-content p a {
+	text-decoration: none;
+	color: #6473D1;
+}
+
+
+/* post card */
+.fl-postcard {
+	margin: 2% auto;
+	width: 90%;
+	height: 100px;
+	border: 1px solid #ddd;
+	box-shadow: 0 3px 3px #ddd;
+	display: table;
+}
+.fl-postcard .fl-postcard-title {
+	color: #333;
+	text-align: center;
+	font-style: Verdana;
+	padding: 1%;
+}
+.fl-postcard .fl-postcard-body {
+	font-size: 80%;
+	color: #555;
+	padding: 1%;
+	text-align: center;
+}
+.fl-postcard .fl-postcard-more {
+	font-size: 80%;
+}
+.fl-postcard .fl-postcard-more a {
+	padding: 1%;
+	text-decoration: none;
+	color: blue;
+}
+.fl-postcard .fl-postcard-timestamp {
+	padding: 1%;
+	color: blue;
+	font-size: 80%;
+}
+
+
+/* styling for text cards */
+.fl-text-card {
+	width: 50%;
+	background-color: white;
+	margin: 5% auto;
+	box-shadow: 0 0 5px #333;
+	text-align: center;
+}
+
+
+/* color card */
+.fl-div-color {
+	width: 100%;
+	display: table;
+	margin: 15px auto;
+	box-shadow: 0 0 5px #555555;
+}
+.fl-head-container {
+	height: 30px;
+	color: #040480
+}
+.fl-div-color .title {
+	width: 80%;
+	height: 30px;
+}
+.fl-div-color .closebtn {
+	width: 20%;
+}
+.fl-div-color .title, .fl-div-color .closebtn {
+	float: left;
+}
+.fl-color {
+	height: 50px;
+	width: 100%;
+}
+.fl-div-color .closebtn {
+	text-align: right;
+}

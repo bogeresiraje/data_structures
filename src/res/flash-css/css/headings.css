@@ -1,0 +1,147 @@
+
+
+/* header: navy blue */
+.fl-centered-heading-blue {
+	color: #20208a;
+    font-size: 130%;
+	width: 100%;
+	height: 40px;
+	padding-top: 3%;
+	margin: 10px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-bottom: 1px solid #20208a;
+}
+
+.center-blue-heading {
+	color: #20208a;
+    font-size: 130%;
+	width: 100%;
+    padding-top: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.left-blue-heading {
+	color: #20208a;
+    font-size: 130%;
+	width: 100%;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.left-blue-heading, .logo {
+	display: inline;
+	padding: 5px;
+	padding-top: 15px;
+	padding-bottom: 0;
+}
+
+.logo {
+	margin-bottom: -5px;
+}
+
+.center-blue-heading-lower {
+	color: #20208a;
+    font-size: 130%;
+	width: 100%;
+	height: 40px;
+	padding-top: 3%;
+	margin: 10px;
+	margin-top: 15px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.center-black-heading {
+	color: #1c1c1d;
+    font-size: 120%;
+	width: 100%;
+	text-transform: uppercase;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.auto-heading {
+	color: #20208a;
+    font-size: 130%;
+	width: 100%;
+	padding-top: 3%;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.auto-heading50 {
+	color: #20208a;
+    font-size: 130%;
+	width: 50%;
+	padding-top: 3%;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 100px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+/* header: navy blue */
+.left-heading-blue {
+	color: #20208a;
+    font-size: 100%;
+    padding-top: 3%;
+	margin-top: 15px;
+	width: 50%;
+	padding-bottom: 5px;
+	text-align: left;
+	border-bottom: 1px solid #20208a;
+}
+
+/* header: navy blue */
+.right-heading-blue {
+	color: #20208a;
+    font-size: 100%;
+    padding-top: 3%;
+	margin-top: 15px;
+	width: 50%;
+	padding-bottom: 5px;
+	text-align: right;
+	border-bottom: 1px solid #20208a;
+}
+
+/* header: dull black */
+.fl-centered-heading-dullblack {
+	color: #555555;
+    font-size: 130%;
+	width: 100%;
+	padding-top: 3%;
+	padding-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+
+
+/* level one headings */
+.fl-navyblue-head {
+    font-size: 100%;
+	color: #555555;
+	text-align: left;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+/* for mobile devices */
+@media screen and (max-width: 495px) {
+	.fl-centered-heading-blue {
+		color: blue;
+		width: 100%;
+		font-size: 100%;
+		text-align: center;
+		padding-top: 2%;
+	}
+}

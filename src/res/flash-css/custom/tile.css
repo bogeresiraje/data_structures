@@ -1,0 +1,46 @@
+
+
+.tile {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 90%;
+}
+
+.tile div {
+    display: inline-block;
+}
+
+.tile .count {
+    width: 4%;
+    font-weight: bold;
+    margin: 5px;
+    margin-top: -5px;
+}
+
+.tile .cover {
+    width: 35px;
+}
+
+
+
+.tile .description {
+    width: 60%;
+}
+
+.tile .description .title {
+    display: block;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 120%;
+    font-weight: bold;
+}
+.tile .description .artiste {
+    display: block;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
